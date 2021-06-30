@@ -16,7 +16,9 @@ Bad Recall score: true positive bad air quality / truth bad air quality(bad, wor
 - prepare_dataset.ipynb - merge, EDA, feature engineering  
 - *.py should be used for *.ipynb files  
 
-Random Forest with class_weight {1,1,3,5} is the best.
+### Result
+Random Forest with class_weight {1,1,3,5} is the best.  
+Since the dataset is unbalanced, so we need to weigh more on 'bad' and 'worst' case when bootstraping.
 
 
 datasets in this drive  
