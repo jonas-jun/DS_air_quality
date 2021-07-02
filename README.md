@@ -4,7 +4,7 @@
 mini project to predict air quality in Seoul
 
 ### Goal
-Bad Recall score: true positive bad air quality / truth bad air quality(bad, worst)
+Bad Recall score: true positive bad air quality / truth bad air quality, where bad air quality means bad, worst.
 
 ### Models
 - Random Forest: variate max_depth and class_weight
